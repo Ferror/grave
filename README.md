@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/Ferror/grave.svg?branch=master)](https://travis-ci.org/Ferror/grave)
+[![License: MIT](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 # grave
 Simple HTML/CSS website framework
