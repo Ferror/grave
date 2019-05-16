@@ -18,15 +18,15 @@ nav > ul {
 
 nav > ul > li {
     font-size: 1.4rem;
-    margin: .25rem;
+    margin: 0.25rem;
 }
 
 nav > ul > li:hover {
     cursor: pointer;
-    opacity: .8;
+    opacity: 0.8;
 }
 
 nav > ul > li > a {
     display: inline-flex;
-    padding: .85rem .3rem;
+    padding: 0.85rem 0.3rem;
 }

@@ -20,7 +20,7 @@ gulp.task('release', function () {
 // Based of .csscomb.json file refactor the *.css files by sorting it properties alphabeticaly
 gulp.task('refactor', function () {
   return gulp
-    .src('src/*.css')
+    .src(['src/*.css', 'grave.css'])
     .pipe(csscomb())
     .pipe(gulp.dest('src'));
 });
@@ -35,7 +35,6 @@ gulp.task('stylelint', function () {
     };
 
     return gulp
-        .src('src/*.css')
-        .pipe(stylelint(reporters))
-        .pipe(gulp.dest('src'));
+        .src(['src/*.css', 'grave.css'])
+        .pipe(stylelint(reporters));
 });

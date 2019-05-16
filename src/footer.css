@@ -1,13 +1,13 @@
 footer {
     font-size: 1.2rem;
     line-height: 1.2rem;
-    margin: 1rem 0 .5rem 0;
+    margin: 1rem 0 0.5rem 0;
     text-align: center;
 }
 
 footer > img {
     height: 1rem;
-    margin: 0 .4rem;
+    margin: 0 0.4rem;
     position: relative;
     top: 3px;
 }
