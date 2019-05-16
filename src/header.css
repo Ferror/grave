@@ -1,33 +1,33 @@
 h1 {
+    color: var(--global-font-color);
     font-size: 2.7rem;
     margin-bottom: 1rem;
-    color: var(--global-font-color);
 }
 
 h2 {
+    color: var(--global-font-color);
     font-size: 2.4rem;
     margin-bottom: .7rem;
-    color: var(--global-font-color);
 }
 
 h3 {
+    color: var(--global-font-color);
     font-size: 2.1rem;
     margin-bottom: .4rem;
-    color: var(--global-font-color);
 }
 
 h4 {
+    color: var(--global-font-color);
     font-size: 1.8rem;
     margin-bottom: .1rem;
-    color: var(--global-font-color);
 }
 
 h5 {
-    font-size: 1.5rem;
     color: var(--global-font-color);
+    font-size: 1.5rem;
 }
 
 h6 {
-    font-size: 1.2rem;
     color: var(--global-font-color);
+    font-size: 1.2rem;
 }

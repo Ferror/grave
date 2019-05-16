@@ -4,31 +4,40 @@ form {
 }
 
 form > input {
-    border-radius: 5px;
-    outline: none;
-    border: none;
     background-color: var(--global-form-background-color);
+    border: none;
+    border-radius: 5px;
     box-shadow: var(--global-form-shadow-color);
     color: var(--global-font-color);
-    padding: 0.7rem;
     font-size: 1.2rem;
     margin: 1rem .5rem 0 .5rem;
+    outline: none;
+    padding: .7rem;
+}
+
+form > input:disabled {
+    cursor: not-allowed;
+    opacity: .75;
 }
 
 form > input:focus {
-    /*background: var(--global-form-background-color);*/
+    /*
+    * background: var(--global-form-background-color);
+    */
     box-shadow: var(--global-form-shadow-color-active);
     transform: translateY(2px);
 }
 
 form > input:required:valid {
-    box-shadow: var(--global-form-shadow-color-active);
     background-color: #2ecc71a6;
+    box-shadow: var(--global-form-shadow-color-active);
     transform: translateY(2px);
 }
 
 form > input:required:invalid {
-    /*background-color: #e74c3ca6;*/
+    /*
+    * background-color: #e74c3ca6;
+    */
 }
 
 form > input::placeholder {
@@ -43,41 +52,36 @@ form > label {
     color: var(--global-font-color);
 }
 
-input:disabled {
-    opacity: 0.75;
-    cursor: not-allowed;
-}
-
 input[type=checkbox] {
-    width: 1.25rem;
+    cursor: pointer;
     height: 1.25rem;
     margin: 1rem .5rem 0 .5rem;
-    cursor: pointer;
+    width: 1.25rem;
 }
 
-input[type=checkbox]:after {
-    cursor: pointer;
-    content: "\2713";
-    color: var(--global-form-font-color);
-    display: inline-block;
+input[type=checkbox]::after {
     background-color: var(--global-form-background-color);
-    box-shadow: var(--global-form-shadow-color);
-    width: 24px;
-    height: 24px;
-    visibility: visible;
     border-radius: 5px;
-    text-align: center;
+    box-shadow: var(--global-form-shadow-color);
+    color: var(--global-form-font-color);
+    content: '\2713';
+    cursor: pointer;
+    display: inline-block;
     font-size: 1.2rem;
-    top: -2px;
+    height: 24px;
     left: -2px;
     position: relative;
+    text-align: center;
+    top: -2px;
+    visibility: visible;
+    width: 24px;
 }
 
-input[type=checkbox]:checked:after {
-    color: var(--global-font-color);
+input[type=checkbox]:checked::after {
     box-shadow: var(--global-form-shadow-color-active);
-    font-weight: bold;
+    color: var(--global-font-color);
     display: inline-block;
+    font-weight: bold;
     opacity: 1;
     transform: translateY(2px);
 }

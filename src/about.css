@@ -6,9 +6,9 @@ about {
 }
 
 about > figure {
-    width: var(--image-width);
-    text-align: center;
     padding: 1rem 0;
+    text-align: center;
+    width: var(--image-width);
 }
 
 about > figure > img {
@@ -16,9 +16,9 @@ about > figure > img {
 }
 
 about > section {
-    max-width: calc(100% - var(--image-width) - 2rem);
-    min-width: calc(var(--image-width) - 2rem);
     display: flex;
     flex-direction: column;
     margin: 1rem;
+    max-width: calc(100% - var(--image-width) - 2rem);
+    min-width: calc(var(--image-width) - 2rem);
 }

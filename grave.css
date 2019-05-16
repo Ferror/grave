@@ -1,12 +1,4 @@
-@import "css/reset.css";
-
-@import "css/nav.css";
-@import "css/header.css";
-@import "css/form.css";
-@import "css/article.css";
-@import "css/about.css";
-@import "css/button.css";
-@import "css/footer.css";
+@import "src/reset.css";
 
 :root {
     --global-font-color: #374252;
@@ -34,13 +26,11 @@ p {
     text-indent: 1.5rem;
 }
 
-a {
-    color: var(--global-font-color);
-    text-decoration: none;
-    cursor: pointer;
-}
-
-a:hover {
-    color: var(--global-font-color);
-    text-decoration: underline;
-}
+@import "test/nav.css";
+@import "test/header.css";
+@import "test/form.css";
+@import "test/article.css";
+@import "test/about.css";
+@import "test/button.css";
+@import "test/footer.css";
+@import "test/link.css";

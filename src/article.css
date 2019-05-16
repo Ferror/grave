@@ -1,21 +1,21 @@
 article {
-    display:flex;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 3rem auto;
-    flex-wrap: wrap;
 }
 
 article > column {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
     padding: 0 1rem;
     width: 22rem;
-    margin: 0 auto;
 }
 
 article > column > header {
+    margin: .5rem 0;
     text-align: center;
-    margin: 0.5rem 0;
 }
 
 article > column > p {
@@ -23,8 +23,8 @@ article > column > p {
 }
 
 article > column > figure {
-    text-align: center;
     padding: 1rem;
+    text-align: center;
 }
 
 article > column > figure > img {
@@ -32,6 +32,6 @@ article > column > figure > img {
 }
 
 article > form {
-    width: 22rem;
     margin: 0 1rem;
+    width: 22rem;
 }

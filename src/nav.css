@@ -1,19 +1,19 @@
 nav {
-    width: 100%;
     display: flex;
-    text-align: center;
     flex-direction: column;
+    text-align: center;
+    width: 100%;
 }
 
 nav > figure > a > img {
-    max-height: 12rem;
     border-radius: 50%;
+    max-height: 12rem;
 }
 
 nav > ul {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 nav > ul > li {
@@ -22,8 +22,8 @@ nav > ul > li {
 }
 
 nav > ul > li:hover {
-    opacity: 0.8;
     cursor: pointer;
+    opacity: .8;
 }
 
 nav > ul > li > a {
