@@ -1,0 +1,37 @@
+article {
+    display:flex;
+    justify-content: space-evenly;
+    margin: 3rem auto;
+    flex-wrap: wrap;
+}
+
+article > column {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    width: 22rem;
+    margin: 0 auto;
+}
+
+article > column > header {
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+article > column > p {
+    text-align: justify-all;
+}
+
+article > column > figure {
+    text-align: center;
+    padding: 1rem;
+}
+
+article > column > figure > img {
+    max-width: 15rem;
+}
+
+article > form {
+    width: 22rem;
+    margin: 0 1rem;
+}

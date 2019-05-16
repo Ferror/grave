@@ -1,0 +1,32 @@
+nav {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+nav > figure > a > img {
+    max-height: 12rem;
+    border-radius: 50%;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav > ul > li {
+    font-size: 1.4rem;
+    margin: .25rem;
+}
+
+nav > ul > li:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+nav > ul > li > a {
+    display: inline-flex;
+    padding: .85rem .3rem;
+}

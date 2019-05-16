@@ -1,0 +1,46 @@
+@import "css/reset.css";
+
+@import "css/nav.css";
+@import "css/header.css";
+@import "css/form.css";
+@import "css/article.css";
+@import "css/about.css";
+@import "css/button.css";
+@import "css/footer.css";
+
+:root {
+    --global-font-color: #374252;
+    --global-form-background-color: #ECF0F1;
+    --global-form-background-color-active: #DCE0E1;
+    --global-form-shadow-color: 0 3px 0 #7F8C8D;
+    --global-form-shadow-color-active: 0 1px 0 #7F8C8D;
+    --global-form-font-color: #7F8C8D;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+p {
+    color: var(--global-font-color);
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    line-height: 1.4rem;
+    letter-spacing: .05rem;
+    word-spacing: .02rem;
+    text-indent: 1.5rem;
+}
+
+a {
+    color: var(--global-font-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: var(--global-font-color);
+    text-decoration: underline;
+}

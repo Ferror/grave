@@ -1,0 +1,29 @@
+button {
+    padding: .7rem;
+    color: var(--global-form-font-color);
+    font-weight: 500;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: var(--global-form-background-color);
+    box-shadow: var(--global-form-shadow-color);
+    margin: 1rem .5rem 0 .5rem;
+}
+
+button:hover {
+    background-color: #E9ECED;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.75;
+    cursor: not-allowed;
+}
+
+button:active {
+    background-color: var(--global-form-background-color);
+    box-shadow: var(--global-form-shadow-color-active);
+    transform: translateY(2px);
+}
