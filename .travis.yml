@@ -4,5 +4,5 @@ git:
 install:
     - npm install
 node_js:
-    - 4
+    - 6
 script: npm test
