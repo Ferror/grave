@@ -3,4 +3,6 @@ git:
     depth: 10
 install:
     - npm install
-script:
+node_js:
+    - 4
+script: npm test
