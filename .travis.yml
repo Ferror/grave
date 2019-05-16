@@ -4,5 +4,6 @@ git:
 install:
     - npm install
 node_js:
-    - 6
-script: npm test
+    - 10.6
+script:
+    - npm test
