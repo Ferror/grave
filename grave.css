@@ -26,11 +26,11 @@ p {
     text-indent: 1.5rem;
 }
 
-@import "test/nav.css";
-@import "test/header.css";
-@import "test/form.css";
-@import "test/article.css";
-@import "test/about.css";
-@import "test/button.css";
-@import "test/footer.css";
-@import "test/link.css";
+@import "src/nav.css";
+@import "src/header.css";
+@import "src/form.css";
+@import "src/article.css";
+@import "src/about.css";
+@import "src/button.css";
+@import "src/footer.css";
+@import "src/link.css";

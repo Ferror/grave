@@ -4,15 +4,16 @@
   "description": "Simple CSS framework without classes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "minify": "node_modules/gulp/bin/gulp.js"
+    "release": "node_modules/gulp/bin/gulp.js release",
+    "refactor": "node_modules/gulp/bin/gulp.js refactor",
+    "test": "node_modules/gulp/bin/gulp.js stylelint"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Ferror/grave"
   },
   "author": "Zbigniew Malcherczyk",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Ferror/grave/issues"
   },
@@ -21,11 +22,9 @@
     "gulp": "^4.0.2",
     "gulp-csscomb": "^3.0.8",
     "gulp-cssimport": "^7.0.0",
-    "gulp-csslint": "^1.0.1",
     "gulp-csso": "^2.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-stylelint": "^9.0.0",
-    "gulp-uglify": "^2.0.0",
     "stylelint": "^10.0.1",
     "stylelint-config-standard": "^18.3.0"
   }
