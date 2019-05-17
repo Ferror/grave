@@ -1,0 +1,15 @@
+errors:
+  - zmalcherczyk@gmail.com
+alerts:
+  suppress:
+    - on-found-puzzle
+    - on-lost-puzzle
+    - on-scope
+  github:
+    - Ferror
+format:
+  - short-title
+  - title-length=100
+tags:
+  - pdd
+  - bug
