@@ -4,4 +4,10 @@
 
 # grave
 #### Simple HTML/CSS website framework
-https://cdn.jsdelivr.net/gh/Ferror/grave/dist/grave.min.css
+
+```html
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ferror/grave@gh-pages/grave.min.css">
+</head>
+```
+
