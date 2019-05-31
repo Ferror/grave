@@ -1,0 +1,32 @@
+input[type=text] {
+    background-color: var(--global-form-background-color);
+    border: none;
+    border-radius: 5px;
+    box-shadow: var(--global-form-shadow-color);
+    color: var(--global-font-color);
+    font-size: 1.2rem;
+    outline: none;
+    padding: 0.7rem;
+    width: 100%;
+}
+
+input[type=text]:disabled {
+    cursor: not-allowed;
+    opacity: 0.75;
+}
+
+input[type=text]::placeholder {
+    color: var(--global-form-font-color);
+}
+
+input[type=text]:focus {
+    background: var(--global-form-background-color);
+    box-shadow: var(--global-form-shadow-color-active);
+    transform: translateY(2px);
+}
+
+input[type=text]:required:valid {
+    background-color: #2ecc71a6;
+    box-shadow: var(--global-form-shadow-color-active);
+    transform: translateY(2px);
+}

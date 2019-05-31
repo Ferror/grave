@@ -35,6 +35,14 @@ gulp.task('stylelint', function () {
     };
 
     return gulp
-        .src(['src/*.css', 'grave.css'])
+        .src([
+            'src/*.css',
+            'src/form/*.css',
+            'src/form/input/*.css',
+            'src/structure/*.css',
+            'src/text/*.css',
+            'src/vendor/*.css',
+            'grave.css'
+        ])
         .pipe(stylelint(reporters));
 });

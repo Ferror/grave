@@ -1,0 +1,10 @@
+p {
+    color: var(--global-font-color);
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.4rem;
+    letter-spacing: 0.05rem;
+    word-spacing: 0.02rem;
+    text-indent: 1.5rem;
+    text-align: justify;
+}

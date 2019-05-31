@@ -1,4 +1,4 @@
-@import "src/reset.css";
+@import "src/vendor/reset.css";
 
 :root {
     --global-font-color: #374252;
@@ -12,27 +12,19 @@
     font-size: 16px;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    max-width: 1170px;
+    max-width: 970px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
-p {
-    color: var(--global-font-color);
-    font-size: 1.2rem;
-    margin-top: 1.5rem;
-    line-height: 1.4rem;
-    letter-spacing: 0.05rem;
-    word-spacing: 0.02rem;
-    text-indent: 1.5rem;
-}
-
-@import "src/nav.css";
-@import "src/header.css";
+@import "src/text.css";
+@import "src/figure.css";
 @import "src/form.css";
-@import "src/article.css";
-@import "src/about.css";
 @import "src/button.css";
-@import "src/footer.css";
-@import "src/link.css";
+@import "src/structure.css";

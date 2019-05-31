@@ -1,0 +1,29 @@
+about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+about > article {
+    width: 100%;
+}
+
+about > figure {
+    width: 100%;
+    text-align: center;
+}
+
+about > figure > img {
+    max-width: 240px;
+}
+
+@media only screen and (min-width: 960px) {
+    about > article {
+        width: calc(100% - 320px);
+    }
+
+    about > figure {
+        width: 290px;
+        text-align: center;
+    }
+}

@@ -1,92 +1,16 @@
+@import "form/input/text.css";
+@import "form/input/number.css";
+@import "form/input/email.css";
+@import "form/input/select.css";
+@import "form/input/password.css";
+@import "form/input/checkbox.css";
+@import "form/input/textarea.css";
+@import "form/input/submit.css";
+@import "form/label.css";
+
 form {
     display: flex;
     flex-direction: column;
-}
-
-form > input {
-    background-color: var(--global-form-background-color);
-    border: none;
-    border-radius: 5px;
-    box-shadow: var(--global-form-shadow-color);
-    color: var(--global-font-color);
-    font-size: 1.2rem;
-    margin: 1rem 0.5rem 0 0.5rem;
-    outline: none;
-    padding: 0.7rem;
-}
-
-form > input:disabled {
-    cursor: not-allowed;
-    opacity: 0.75;
-}
-
-form > input:focus {
-    /*
-    * background: var(--global-form-background-color);
-    */
-    box-shadow: var(--global-form-shadow-color-active);
-    transform: translateY(2px);
-}
-
-form > input:required:valid {
-    background-color: #2ecc71a6;
-    box-shadow: var(--global-form-shadow-color-active);
-    transform: translateY(2px);
-}
-
-form > input:required:invalid {
-    /*
-    * background-color: #e74c3ca6;
-    */
-}
-
-form > input::placeholder {
-    color: var(--global-form-font-color);
-}
-
-form > header {
-    text-align: center;
-}
-
-form > label {
-    color: var(--global-font-color);
-}
-
-input[name=_gotcha] {
-    display: none;
-    visibility: hidden;
-}
-
-input[type=checkbox] {
-    cursor: pointer;
-    height: 1.25rem;
-    margin: 1rem 0.5rem 0 0.5rem;
-    width: 1.25rem;
-}
-
-input[type=checkbox]::after {
-    background-color: var(--global-form-background-color);
-    border-radius: 5px;
-    box-shadow: var(--global-form-shadow-color);
-    color: var(--global-form-font-color);
-    content: '\2713';
-    cursor: pointer;
-    display: inline-block;
-    font-size: 1.2rem;
-    height: 24px;
-    left: -2px;
-    position: relative;
-    text-align: center;
-    top: -2px;
-    visibility: visible;
-    width: 24px;
-}
-
-input[type=checkbox]:checked::after {
-    box-shadow: var(--global-form-shadow-color-active);
-    color: var(--global-font-color);
-    display: inline-block;
-    font-weight: bold;
-    opacity: 1;
-    transform: translateY(2px);
+    max-width: 360px;
+    margin: 0 auto;
 }
