@@ -1,17 +1,16 @@
-@import 'form/input/text.css';
-@import 'form/input/number.css';
-@import 'form/input/email.css';
-@import 'form/input/select.css';
-@import 'form/input/password.css';
-@import 'form/input/checkbox.css';
-@import 'form/input/textarea.css';
-@import 'form/input/submit.css';
-@import 'form/label.css';
-
+@import "form/input/text.css";
+@import "form/input/number.css";
+@import "form/input/email.css";
+@import "form/input/select.css";
+@import "form/input/password.css";
+@import "form/input/checkbox.css";
+@import "form/input/textarea.css";
+@import "form/input/submit.css";
+@import "form/label.css";
 
 form {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
     max-width: 360px;
+    margin: 0 auto;
 }

@@ -9,7 +9,7 @@ button {
     font-weight: 500;
     margin-bottom: 8px;
     outline: none;
-    padding: .7rem 1rem;
+    padding: 0.7rem 1rem;
 }
 
 button:hover {
@@ -19,7 +19,7 @@ button:hover {
 
 button:disabled {
     cursor: not-allowed;
-    opacity: .75;
+    opacity: 0.75;
 }
 
 button:active {

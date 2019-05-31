@@ -22,7 +22,7 @@ column > article > figure > img {
     width: 240px;
 }
 
-@media only screen and (min-width : 960px) {
+@media only screen and (min-width: 960px) {
     column {
         width: 455px;
     }
