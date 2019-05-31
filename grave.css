@@ -4,9 +4,9 @@
     --global-font-color: #374252;
     --global-form-background-color: #ecf0f1;
     --global-form-background-color-active: #dce0e1;
+    --global-form-font-color: #7f8c8d;
     --global-form-shadow-color: 0 3px 0 #7f8c8d;
     --global-form-shadow-color-active: 0 1px 0 #7f8c8d;
-    --global-form-font-color: #7f8c8d;
     --image-width: 20rem;
 
     font-size: 16px;
@@ -23,6 +23,7 @@ body {
     padding: 0 15px;
 }
 
+@import "src/vendor/formspree.css";
 @import "src/text.css";
 @import "src/figure.css";
 @import "src/form.css";
