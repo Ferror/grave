@@ -1,4 +1,4 @@
-button {
+input[type=submit] {
     background-color: var(--global-form-background-color);
     border: none;
     border-radius: 5px;
@@ -7,22 +7,23 @@ button {
     cursor: pointer;
     font-size: 1.2rem;
     font-weight: 500;
-    margin-bottom: 8px;
     outline: none;
-    padding: .7rem 1rem;
+    padding: 0.7rem 0;
+    margin-bottom: 8px;
+    width: 100%;
 }
 
-button:hover {
+input[type=submit]:hover {
     background-color: #e9eced;
     cursor: pointer;
 }
 
-button:disabled {
+input[type=submit]:disabled {
     cursor: not-allowed;
-    opacity: .75;
+    opacity: 0.75;
 }
 
-button:active {
+input[type=submit]:active {
     background-color: var(--global-form-background-color);
     box-shadow: var(--global-form-shadow-color-active);
     transform: translateY(2px);

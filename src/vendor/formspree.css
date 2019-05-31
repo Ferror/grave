@@ -1,0 +1,4 @@
+input[name=_gotcha] {
+    display: none;
+    visibility: hidden;
+}
