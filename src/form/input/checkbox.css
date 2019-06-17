@@ -1,9 +1,11 @@
 input[type=checkbox] {
     cursor: pointer;
     height: 1.25rem;
-    /*
+
+    /**
      * @todo remove margin top/bottom
      */
+
     margin: 1rem 0.5rem 0 0.5rem;
     width: 1.25rem;
 }
