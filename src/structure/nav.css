@@ -1,13 +1,10 @@
 nav {
     display: flex;
     flex-direction: column;
+    margin-bottom: 1rem;
     text-align: center;
     width: 100%;
 }
-
-/**
- * @todo add nav margin bottom
- */
 
 nav > figure > a > img {
     border-radius: 50%;

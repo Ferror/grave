@@ -1,4 +1,10 @@
 @import "src/vendor/reset.css";
+@import "src/vendor/formspree.css";
+@import "src/text.css";
+@import "src/figure.css";
+@import "src/form.css";
+@import "src/button.css";
+@import "src/structure.css";
 
 :root {
     --global-font-color: #374252;
@@ -22,10 +28,3 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
-
-@import "src/vendor/formspree.css";
-@import "src/text.css";
-@import "src/figure.css";
-@import "src/form.css";
-@import "src/button.css";
-@import "src/structure.css";
