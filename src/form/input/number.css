@@ -5,6 +5,7 @@ input[type=number] {
     box-shadow: var(--global-form-shadow-color);
     color: var(--global-font-color);
     font-size: 1.2rem;
+    margin-top: 0.5rem;
     outline: none;
     padding: 0.7rem;
     width: 100%;
