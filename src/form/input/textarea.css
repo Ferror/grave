@@ -18,7 +18,7 @@ textarea:focus {
 }
 
 textarea:required:valid {
-    background-color: #2ecc71a6;
+    background-color: var(--global-form-background-color-valid);
     box-shadow: var(--global-form-shadow-color-active);
     transform: translateY(2px);
 }
