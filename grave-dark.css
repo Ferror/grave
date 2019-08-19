@@ -7,11 +7,11 @@
 @import "src/structure.css";
 
 :root {
-    --global-page-background-color: #fff;
-    --global-font-color: #374252;
+    --global-page-background-color: #36393e;
+    --global-font-color: #a7a7a7;
     --global-form-background-color: #ecf0f1;
     --global-form-background-color-active: #dce0e1;
-    --global-form-background-color-valid: #2ecc71a6;
+    --global-form-background-color-valid: #ecf0f1;
     --global-form-font-color: #7f8c8d;
     --global-form-shadow-color: 0 3px 0 #7f8c8d;
     --global-form-shadow-color-active: 0 1px 0 #7f8c8d;
