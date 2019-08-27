@@ -5,9 +5,7 @@
 # grave
 #### Simple HTML/CSS website framework
 
-![](https://assets.malcherczyk.com/icons/icon_g.svg)
 <img src="https://assets.malcherczyk.com/icons/icon_g.svg" width="100" height="100">
-
 
 ```html
 <html>
