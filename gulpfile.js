@@ -3,7 +3,7 @@
 var gulp = require('gulp');
 var csso = require('gulp-csso');
 var cssimport = require('gulp-cssimport');
-var csscomb = require('gulp-csscomb');
+// var csscomb = require('gulp-csscomb');
 var rename = require('gulp-rename');
 var stylelint = require('gulp-stylelint');
 
@@ -18,12 +18,12 @@ gulp.task('release', function () {
 });
 
 // Based of .csscomb.json file refactor the *.css files by sorting it properties alphabeticaly
-gulp.task('refactor', function () {
-  return gulp
-    .src(['src/*.css', 'grave.css'])
-    .pipe(csscomb())
-    .pipe(gulp.dest('src'));
-});
+// gulp.task('refactor', function () {
+//   return gulp
+//     .src(['src/*.css', 'grave.css'])
+//     .pipe(csscomb())
+//     .pipe(gulp.dest('src'));
+// });
 
 //Based of .stylrc.json file check it's codestyle
 gulp.task('stylelint', function () {
