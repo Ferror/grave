@@ -1,4 +1,5 @@
 @import "form/input/text.css";
+@import "form/input/honeypot.css";
 @import "form/input/number.css";
 @import "form/input/email.css";
 @import "form/input/select.css";

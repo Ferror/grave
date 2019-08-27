@@ -1,10 +1,10 @@
 @import "src/vendor/reset.css";
-@import "src/vendor/formspree.css";
 @import "src/text.css";
 @import "src/figure.css";
 @import "src/form.css";
 @import "src/button.css";
 @import "src/structure.css";
+@import "src/tooltip.css";
 
 :root {
     --global-page-background-color: #36393e;
