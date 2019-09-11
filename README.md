@@ -7,10 +7,22 @@
 
 <img src="https://assets.malcherczyk.com/icons/icon_g.svg" width="100" height="100">
 
+## If you prefer light mode
+
 ```html
 <html>
     <head>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ferror/grave@gh-pages/grave.min.css">
+    </head>
+</html>
+```
+
+## If you prefer dark mode
+
+```html
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ferror/grave@gh-pages/grave-dark.min.css">
     </head>
 </html>
 ```
