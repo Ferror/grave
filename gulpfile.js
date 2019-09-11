@@ -9,6 +9,15 @@ var stylelint = require('gulp-stylelint');
 
 // Prepare for distribution
 gulp.task('release', function () {
+    if (process.argv[3] === '--dark') {
+        return gulp
+            .src('grave-dark.css')
+            .pipe(cssimport({matchPattern: '*.css'}))
+            .pipe(csso())
+            .pipe(rename('grave-dark.min.css'))
+            .pipe(gulp.dest('dist'));
+    }
+
     return gulp
         .src('grave.css')
         .pipe(cssimport({matchPattern: '*.css'}))
