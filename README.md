@@ -26,3 +26,15 @@
     </head>
 </html>
 ```
+
+# Release
+
+You can release/compile and minimize css by typing:
+```
+node_modules/gulp/bin/gulp.js release
+```
+
+and to release dark mode:
+```
+node_modules/gulp/bin/gulp.js release --dark
+```
