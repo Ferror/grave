@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grave's Temple</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ferror/grave@gh-pages/grave-3.0.min.css">
+        <link rel="icon" sizes="32x32" href="https://assets.malcherczyk.com/favicon/favicon-32x32.ico">
+        <link rel="icon" sizes="16x16" href="https://assets.malcherczyk.com/favicon/favicon-16x16.ico">
+    </head>
+    <body>
+        <form action="">
+            <label>
+                <input type="text" placeholder="text" required>
+            </label>
+            <label>
+                <input type="number" placeholder="number" required>
+            </label>
+            <label>
+                <input type="email" placeholder="email" required>
+            </label>
+            <label>
+                <input type="password" placeholder="password" required>
+            </label>
+            <label>
+                <input type="checkbox" required>
+            </label>
+            <label>
+                <select required>
+                    <option>option1</option>
+                    <option>option2</option>
+                    <option>option3</option>
+                </select>
+            </label>
+            <label>
+                <textarea required>Some textarea lorem example</textarea>
+            </label>
+            <label>
+                <input type="submit" value="Submit">
+            </label>
+        </form>
+        <script>
+            (function () {
+                let darkModeUrl = 'https://cdn.jsdelivr.net/gh/ferror/grave@gh-pages/grave-dark-3.0.min.css';
+                let lightModeUrl = 'https://cdn.jsdelivr.net/gh/ferror/grave@gh-pages/grave-3.0.min.css';
+
+                document.querySelector('body').addEventListener('dblclick', function() {
+                    let link = document.querySelector('link');
+
+                    if (link.href === darkModeUrl) {
+                        link.href = lightModeUrl;
+                    } else {
+                        link.href = darkModeUrl;
+                    }
+                });
+            })();
+        </script>
+    </body>
+</html>
