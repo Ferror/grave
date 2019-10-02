@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grave's Temple</title>
+        <link rel="icon" sizes="32x32" href="https://assets.malcherczyk.com/favicon/favicon-32x32.ico">
+        <link rel="icon" sizes="16x16" href="https://assets.malcherczyk.com/favicon/favicon-16x16.ico">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ferror/grave@gh-pages/grave-3.0.min.css">
+    </head>
+    <body>
+        <temple>
+            <column>
+                <article>
+                    <header>
+                        <h3>Projects</h3>
+                    </header>
+                    <figure>
+                        <img src="https://malcherczyk.pl/assets/icons/512/icon_round_projects.svg" alt="Project's figure">
+                    </figure>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sollicitudin arcu. Mauris semper ut est vitae mattis. Phasellus hendrerit cursus libero, ut lobortis orci pretium sit amet. Integer finibus, justo accumsan sagittis fermentum, magna ex pretium turpis, id imperdiet orci ligula sed quam. In vulputate, libero non suscipit aliquet, purus est aliquet risus, nec scelerisque nisl
+                    </p>
+                </article>
+            </column>
+            <column>
+                <article>
+                    <header>
+                        <h3>Projects</h3>
+                    </header>
+                    <figure>
+                        <img src="https://malcherczyk.pl/assets/icons/512/icon_round_projects.svg" alt="Project's figure">
+                    </figure>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sollicitudin arcu. Mauris semper ut est vitae mattis. Phasellus hendrerit cursus libero, ut lobortis orci pretium sit amet. Integer finibus, justo accumsan sagittis fermentum, magna ex pretium turpis, id imperdiet orci ligula sed quam. In vulputate, libero non suscipit aliquet, purus est aliquet risus, nec scelerisque nisl
+                    </p>
+                </article>
+            </column>
+        </temple>
+        <script>
+            (function () {
+                let darkModeUrl = 'https://cdn.jsdelivr.net/gh/ferror/grave@gh-pages/grave-dark-3.0.min.css';
+                let lightModeUrl = 'https://cdn.jsdelivr.net/gh/ferror/grave@gh-pages/grave-3.0.min.css';
+
+                document.querySelector('body').addEventListener('dblclick', function() {
+                    let link = document.querySelector('link');
+
+                    if (link.href === darkModeUrl) {
+                        link.href = lightModeUrl;
+                    } else {
+                        link.href = darkModeUrl;
+                    }
+                });
+            })();
+        </script>
+    </body>
+</html>
