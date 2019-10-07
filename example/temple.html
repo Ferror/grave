@@ -38,21 +38,5 @@
                 </article>
             </column>
         </temple>
-        <script>
-            (function () {
-                let darkModeUrl = 'https://cdn.jsdelivr.net/gh/ferror/grave@gh-pages/grave-dark-3.0.min.css';
-                let lightModeUrl = 'https://cdn.jsdelivr.net/gh/ferror/grave@gh-pages/grave-3.0.min.css';
-
-                document.querySelector('body').addEventListener('dblclick', function() {
-                    let link = document.querySelector('link');
-
-                    if (link.href === darkModeUrl) {
-                        link.href = lightModeUrl;
-                    } else {
-                        link.href = darkModeUrl;
-                    }
-                });
-            })();
-        </script>
     </body>
 </html>
