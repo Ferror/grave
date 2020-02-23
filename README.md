@@ -12,7 +12,7 @@
 ```html
 <html>
     <head>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ferror/grave@gh-pages/grave.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ferror/grave@gh-pages/3.0/grave.min.css">
     </head>
 </html>
 ```
@@ -22,7 +22,7 @@
 ```html
 <html>
     <head>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ferror/grave@gh-pages/grave-dark.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ferror/grave@gh-pages/3.0/grave-dark.min.css">
     </head>
 </html>
 ```
