@@ -5,6 +5,7 @@
 @import "src/button.css";
 @import "src/structure.css";
 @import "src/tooltip.css";
+@import "src/dropdown.css";
 
 :root {
     --global-page-background-color: #36393e;
