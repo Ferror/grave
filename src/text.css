@@ -6,6 +6,6 @@
 
 code {
     padding: 0.25rem 0.4rem;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: var(--global-text-code-background-color);
     border-radius: 4px;
 }
