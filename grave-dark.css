@@ -15,6 +15,7 @@
     --global-form-font-color: #7f8c8d;
     --global-form-shadow-color: 0 3px 0 #7f8c8d;
     --global-form-shadow-color-active: 0 1px 0 #7f8c8d;
+    --global-text-code-background-color: rgba(236, 240, 241, 0.1);
     --image-width: 20rem;
 
     font-size: 16px;
