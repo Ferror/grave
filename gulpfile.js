@@ -1,14 +1,23 @@
 'use strict';
 
-var gulp = require('gulp');
-var csso = require('gulp-csso');
-var cssimport = require('gulp-cssimport');
+const gulp = require('gulp');
+const csso = require('gulp-csso');
+const cssimport = require('gulp-cssimport');
 // var csscomb = require('gulp-csscomb');
-var rename = require('gulp-rename');
-var stylelint = require('gulp-stylelint');
+const rename = require('gulp-rename');
+const stylelint = require('gulp-stylelint');
 
 // Prepare for distribution
 gulp.task('release', function () {
+    if (process.argv[3] === '--light') {
+        return gulp
+            .src('grave-light.css')
+            .pipe(cssimport({matchPattern: '*.css'}))
+            .pipe(csso())
+            .pipe(rename('grave-light.min.css'))
+            .pipe(gulp.dest('dist'));
+    }
+
     if (process.argv[3] === '--dark') {
         return gulp
             .src('grave-dark.css')
