@@ -7,17 +7,6 @@
 @import "src/tooltip.css";
 
 :root {
-    --global-page-background-color: #fff;
-    --global-font-color: #374252;
-    --global-form-background-color: #ecf0f1;
-    --global-form-background-color-active: #dce0e1;
-    --global-form-background-color-valid: #2ecc71a6;
-    --global-form-font-color: #7f8c8d;
-    --global-form-shadow-color: 0 3px 0 #7f8c8d;
-    --global-form-shadow-color-active: 0 1px 0 #7f8c8d;
-    --global-text-code-background-color: rgba(0, 0, 0, 0.1);
-    --image-width: 20rem;
-
     font-size: 16px;
 }
 
@@ -31,4 +20,34 @@ body {
     max-width: 970px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --global-page-background-color: #36393e;
+        --global-font-color: #a7a7a7;
+        --global-form-background-color: #ecf0f1;
+        --global-form-background-color-active: #dce0e1;
+        --global-form-background-color-valid: #ecf0f1;
+        --global-form-font-color: #7f8c8d;
+        --global-form-shadow-color: 0 3px 0 #7f8c8d;
+        --global-form-shadow-color-active: 0 1px 0 #7f8c8d;
+        --global-text-code-background-color: rgba(236, 240, 241, 0.1);
+        --image-width: 20rem;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --global-page-background-color: #fff;
+        --global-font-color: #374252;
+        --global-form-background-color: #ecf0f1;
+        --global-form-background-color-active: #dce0e1;
+        --global-form-background-color-valid: #2ecc71a6;
+        --global-form-font-color: #7f8c8d;
+        --global-form-shadow-color: 0 3px 0 #7f8c8d;
+        --global-form-shadow-color-active: 0 1px 0 #7f8c8d;
+        --global-text-code-background-color: rgba(0, 0, 0, 0.1);
+        --image-width: 20rem;
+    }
 }
