@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+
+    grave:
+        image: node:12-slim
+        container_name: grave-node
+        working_dir: /grave
+        volumes:
+            - .:/grave
+        ports:
+            - "3000:3000"
+        command: npm start

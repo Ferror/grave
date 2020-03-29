@@ -6,6 +6,7 @@
     "scripts": {
         "release": "node_modules/gulp/bin/gulp.js release",
         "refactor": "node_modules/gulp/bin/gulp.js refactor",
+        "start": "node server.js",
         "test": "node_modules/gulp/bin/gulp.js stylelint"
     },
     "repository": {
@@ -23,7 +24,7 @@
         "gulp-cssimport": "^7.0.0",
         "gulp-csso": "^2.0.0",
         "gulp-rename": "^1.4.0",
-        "gulp-stylelint": "^9.0.0",
+        "gulp-stylelint": "^13.0.0",
         "stylelint": "^10.1.0",
         "stylelint-config-standard": "^18.3.0"
     }
