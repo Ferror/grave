@@ -3,3 +3,9 @@
 @import 'text/link.css';
 @import 'text/paragraph.css';
 @import 'text/figcaption.css';
+
+code {
+    padding: 0.25rem 0.4rem;
+    background-color: var(--global-text-code-background-color);
+    border-radius: 4px;
+}

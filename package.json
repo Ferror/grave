@@ -1,6 +1,6 @@
 {
     "name": "grave",
-    "version": "1.0.0",
+    "version": "3.2.0",
     "description": "Simple CSS framework without classes",
     "main": "index.js",
     "scripts": {
