@@ -13,21 +13,20 @@ input[type=checkbox]::after {
     content: '\2713';
     cursor: pointer;
     display: inline-block;
-    font-size: 1.2rem;
-    height: 24px;
+    font-size: 1.4rem;
+    height: 26px;
     left: -2px;
     position: relative;
     text-align: center;
-    top: -2px;
+    top: -3px;
     visibility: visible;
-    width: 24px;
+    width: 26px;
 }
 
 input[type=checkbox]:checked::after {
     box-shadow: var(--global-form-shadow-color-active);
     color: var(--global-font-color);
     display: inline-block;
-    font-weight: bold;
     opacity: 1;
     transform: translateY(2px);
 }

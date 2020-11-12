@@ -9,6 +9,7 @@
 :root {
     --global-page-background-color: #fff;
     --global-font-color: #374252;
+    --global-font-family: "Times New Roman", Times, serif;
     --global-form-background-color: #ecf0f1;
     --global-form-background-color-active: #dce0e1;
     --global-form-background-color-valid: #2ecc71a6;
