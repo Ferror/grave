@@ -7,8 +7,9 @@
 @import "src/tooltip.css";
 
 :root {
-    --global-page-background-color: #fff;
+    --global-page-background-color: #ffffff;
     --global-font-color: #374252;
+    --global-font-family: "Times New Roman", Times, serif;
     --global-form-background-color: #ecf0f1;
     --global-form-background-color-active: #dce0e1;
     --global-form-background-color-valid: #2ecc71a6;
@@ -31,4 +32,8 @@ body {
     max-width: 970px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+section {
+    margin-bottom: 3rem;
 }
