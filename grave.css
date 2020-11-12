@@ -40,7 +40,7 @@ body {
 
 @media (prefers-color-scheme: light) {
     :root {
-        --global-page-background-color: #ffffff;
+        --global-page-background-color: #fff;
         --global-font-color: #374252;
         --global-font-family: "Times New Roman", Times, serif;
         --global-form-background-color: #ecf0f1;
