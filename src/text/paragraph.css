@@ -1,8 +1,4 @@
 p {
-    /**
-     * @todo Change paragraph font to Sherif -> times new roman
-     */
-
     color: var(--global-font-color);
     font-size: 1.1rem;
     margin-bottom: 1.5rem;
