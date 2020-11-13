@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.com/Ferror/grave.svg?branch=master)](https://travis-ci.com/Ferror/grave)
 [![License: MIT](https://img.shields.io/apm/l/vim-mode.svg)](https://opensource.org/licenses/MIT)
 [![GitHub release](https://img.shields.io/github/v/release/ferror/grave.svg)](https://github.com/Ferror/grave/releases)
+[![GitHub downloads](https://img.shields.io/github/downloads/ferror/grave/total)](https://github.com/Ferror/grave)
 
 # grave
 #### Simple HTML/CSS website framework
