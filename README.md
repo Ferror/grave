@@ -9,7 +9,7 @@
 
 ## Usage
 
-### If you want to autodetect mode
+### If you want the autodetect mode
 ```html
 <html>
     <head>
@@ -36,21 +36,33 @@
 </html>
 ```
 
-# Release
-## Autodetect Mode
+## Release
+### Autodetect Mode
 You can release/compile and minimize css by typing:
 ```
 node_modules/gulp/bin/gulp.js release
 ```
 
-## Dark Mode
+### Dark Mode
 and to release dark mode:
 ```
 node_modules/gulp/bin/gulp.js release --dark
 ```
 
-## Light Mode
+### Light Mode
 and to release light mode:
 ```
 node_modules/gulp/bin/gulp.js release --light
 ```
+
+## Changelog
+
+### 3.4
+* Paragraph links will be underlined
+
+### 3.3
+* Change the paragraph font family to Times New Roman
+* Improve code tag on dark mode
+* Minor checkbox input fixes
+* Increasing margin-bottom for structure elements
+* Make header 2, 4, and 6 with opacity 0.8

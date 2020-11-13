@@ -60,7 +60,9 @@ gulp.task('stylelint', function () {
             'src/structure/*.css',
             'src/text/*.css',
             'src/vendor/*.css',
-            'grave.css'
+            'grave.css',
+            'grave-dark.css',
+            'grave-light.css'
         ])
         .pipe(stylelint(reporters));
 });
