@@ -1,10 +1,12 @@
 trigger {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
+    background-color: var(--global-form-background-color);
     border: none;
+    border-radius: 5px;
+    box-shadow: var(--global-form-shadow-color);
+    color: var(--global-form-font-color);
     cursor: pointer;
+    font-size: 16px;
+    padding: 16px;
 }
 
 dropdown {
@@ -13,23 +15,25 @@ dropdown {
 }
 
 dropdown > ul {
-    display: none;
-    position: absolute;
     background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    display: none;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    position: absolute;
     z-index: 1;
 }
 
 dropdown > ul > a {
+    border-radius: 5px;
     color: black;
+    display: block;
     padding: 12px 16px;
     text-decoration: none;
-    display: block;
 }
 
 dropdown > ul > a:hover {
-    background-color: #f1f1f1
+    background-color: #f1f1f1;
 }
 
 dropdown:hover > ul {
@@ -37,5 +41,9 @@ dropdown:hover > ul {
 }
 
 dropdown:hover trigger {
-    background-color: #3e8e41;
+    background-color: var(--global-form-background-color);
+    border: none;
+    border-radius: 5px;
+    box-shadow: var(--global-form-shadow-color);
+    color: var(--global-form-font-color);
 }
